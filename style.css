@@ -1,0 +1,59 @@
+input.orange {
+    color: orange;
+    background-color: orange;
+}
+
+input.green {
+  color: white;
+  background-color: rgb(119, 189, 28);
+}
+
+input.orw {
+  color: white;
+  background-color: orange;
+}
+
+
+  .custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+
+  .custom-select {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  .custom-select img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+
+  .custom-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1;
+  }
+
+  .custom-option {
+    padding: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  .custom-option:hover {
+    background-color: #f0f0f0;
+  }
